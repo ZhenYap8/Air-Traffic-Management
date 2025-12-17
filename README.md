@@ -1,13 +1,5 @@
 # Air Traffic Management: Neural Network Method
 
-## Group Members
-- Brandon Rutagamirwa  
-- Zhen Wei Yap  
-- Onur Kurt  
-- Staines Rajith  
-- Hardit Ravinder Saini  
-- Osinachi Ogemena  
-
 ---
 
 ## Overview
