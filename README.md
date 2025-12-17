@@ -11,8 +11,7 @@
 ---
 
 ## Overview
-This section of the coursework focuses on the design and implementation of a Neural Network–based regression model for predicting aircraft taxi time within an Air Traffic Management (ATM) context. Emphasis is placed on the neural network architecture, training process, and performance evaluation, using dimensionality-reduced inputs to assess the effectiveness of supervised learning for taxi time prediction.
-
+This section of the coursework specifically focuses on the application of Neural Networks for aircraft taxi time prediction within an Air Traffic Management (ATM) context. While other sections of the project address data preparation, dimensionality reduction using PCA, and comparisons with alternative models, this contribution concentrates on the design, training, and evaluation of a Neural Network–based regression model, with emphasis on network architecture, learning process, and predictive performance.
 
 ---
 
