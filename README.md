@@ -1,34 +1,78 @@
 # Air Traffic Management: Neural Network Method
 
-## Model Structure
-**Choice of Model:** Multi-Layer Perceptron (MLP) with Back Propagation (BPNN)
+## Group Members
+- Brandon Rutagamirwa  
+- Zhen Wei Yap  
+- Onur Kurt  
+- Staines Rajith  
+- Hardit Ravinder Saini  
+- Osinachi Ogemena  
 
-*   **Input Layer:** Single layer with 2 neurons (corresponding to Principal Components) + Bias term.
-*   **Hidden Layer:** Single layer with 12 neurons + Bias term.
-    *   *Activation Function:* Sigmoid.
-*   **Output Layer:** Single layer with 1 neuron.
-    *   *Activation Function:* Linear (Identity) for regression.
+---
+
+## Overview
+This project applies a **Neural Network–based regression model** to predict aircraft taxi time in an Air Traffic Management (ATM) context. Dimensionality reduction is performed using **Principal Component Analysis (PCA)**, and the resulting components are used as inputs to a supervised learning model.
+
+---
+
+## Model Structure
+
+**Choice of Model:**  
+Multi-Layer Perceptron (MLP) with Back Propagation Neural Network (BPNN)
+
+### Architecture
+- **Input Layer**
+  - 2 neurons corresponding to principal components
+  - Bias term included
+
+- **Hidden Layer**
+  - 1 hidden layer with 12 neurons
+  - Bias term included
+  - Activation function: Sigmoid
+
+- **Output Layer**
+  - 1 neuron
+  - Activation function: Linear (identity), suitable for regression tasks
+
+---
 
 ## Training Process
-*   **Learning Rate:** 0.001
-*   **Epochs:** 1000
-*   **Loss Metric:** Mean Squared Error (MSE)
 
-The training process follows these steps:
-1.  **Forward Propagation:** Passes `x_train` through all layers to produce the predicted taxi time.
-2.  **Loss Function:** Calculates the difference between the predicted value and the actual `y_train`.
-3.  **Back Propagation:** Computes the gradient of the loss with respect to all weights to update the model.
+- **Learning Rate:** 0.001  
+- **Epochs:** 1000  
+- **Loss Function:** Mean Squared Error (MSE)
+
+### Training Steps
+1. **Forward Propagation**  
+   Input data (`x_train`) is passed through the network to generate predicted taxi times.
+
+2. **Loss Calculation**  
+   The Mean Squared Error between predicted values and actual values (`y_train`) is computed.
+
+3. **Back Propagation**  
+   Gradients of the loss function with respect to network weights are calculated and used to update the model parameters.
+
+---
 
 ## Dataset Splitting
-The dataset is divided into the following sub-datasets:
-*   **Training:** 70%
-*   **Testing:** 20%
-*   **Validating:** 10%
+The dataset is divided as follows:
+- **Training Set:** 70%  
+- **Testing Set:** 20%  
+- **Validation Set:** 10%  
 
-## Statistical Tests & Evaluation
-To evaluate the performance and reliability of the Neural Network, the following metrics and tests are conducted:
-*   **Performance Metrics:**
-    *   Mean Absolute Error (MAE)
-    *   Root Mean Squared Error (RMSE)
-    *   Coefficient of Determination ($R^2$)
-*   **Statistical Analysis:** Analysis of Residuals (Predicted vs. Actual deviations).
+---
+
+## Statistical Tests and Evaluation
+
+### Performance Metrics
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- Coefficient of Determination (R²)
+
+### Statistical Analysis
+- Residual analysis comparing predicted versus actual taxi times to assess model reliability and error distribution.
+
+---
+
+## Conclusion
+The implemented MLP model demonstrates the applicability of neural networks in Air Traffic Management prediction tasks. Performance metrics and residual analysis are used to validate accuracy and robustness.
