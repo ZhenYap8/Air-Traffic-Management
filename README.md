@@ -11,7 +11,8 @@
 ---
 
 ## Overview
-This project applies a **Neural Network–based regression model** to predict aircraft taxi time in an Air Traffic Management (ATM) context. Dimensionality reduction is performed using **Principal Component Analysis (PCA)**, and the resulting components are used as inputs to a supervised learning model.
+This section of the coursework focuses on the design and implementation of a Neural Network–based regression model for predicting aircraft taxi time within an Air Traffic Management (ATM) context. Emphasis is placed on the neural network architecture, training process, and performance evaluation, using dimensionality-reduced inputs to assess the effectiveness of supervised learning for taxi time prediction.
+
 
 ---
 
