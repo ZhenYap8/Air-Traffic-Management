@@ -1,6 +1,6 @@
+.venv/
 datasets/
 datasets2/
 datasets3/
-.venv/
-.gitignore
+
 __pycache__/
