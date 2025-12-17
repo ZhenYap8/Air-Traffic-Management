@@ -1,7 +1,5 @@
 # Air Traffic Management: Neural Network Method
 
----
-
 ## Overview
 This section of the coursework specifically focuses on the application of Neural Networks for aircraft taxi time prediction within an Air Traffic Management (ATM) context. While other sections of the project address data preparation, dimensionality reduction using PCA, and comparisons with alternative models, this contribution concentrates on the design, training, and evaluation of a Neural Network–based regression model, with emphasis on network architecture, learning process, and predictive performance.
 
